@@ -36,10 +36,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import pac from "./company/pac.jpg";
+import philJohn from "./company/philjohn.png";
 
 import wordpress from "./tech/wordpress.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import resto from "./resto.jpg";
 
 export {
   logo,
@@ -70,13 +73,16 @@ export {
   threejs,
   meta,
   shopify,
+  pac,
+  philJohn,
+  carrent,
   starbucks,
   tesla,
-  carrent,
   jobit,
   tripguide,
   laravel,
   flutter,
   dart,
   angularjs,
+  resto
 };

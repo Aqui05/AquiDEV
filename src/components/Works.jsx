@@ -93,6 +93,18 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
+      {/* Button to see all projects on GitHub/GitLab */}
+      <div className='mt-10 flex justify-center'>
+        <a
+          href='https://github.com/Aqui05' // Remplacez par le lien vers votre compte GitHub/GitLab
+          target='_blank'
+          rel='noopener noreferrer'
+          className='bg-blue-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300'
+        >
+          Others projects
+    </a>
+      </div>
     </>
   );
 };
