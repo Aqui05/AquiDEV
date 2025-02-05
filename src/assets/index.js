@@ -38,6 +38,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import pac from "./company/pac.jpg";
 import philJohn from "./company/philjohn.png";
+import kamgoko from "./company/kamgoko.png";
 
 import wordpress from "./tech/wordpress.png";
 import jobit from "./jobit.png";
@@ -74,6 +75,7 @@ export {
   meta,
   shopify,
   pac,
+  kamgoko,
   philJohn,
   carrent,
   starbucks,

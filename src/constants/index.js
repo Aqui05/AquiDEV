@@ -26,6 +26,7 @@ import {
   tripguide,
   resto,
   threejs,
+  kamgoko,
 } from "../assets";
 
 export const navLinks = [
@@ -144,7 +145,7 @@ const experiences = [
     company_name: "Port Autonome de Cotonou(PAC)",
     icon: pac,
     iconBg: "#E6DEDD",
-    date: "Aug 2023 - Feb 2023",
+    date: "Aug 2023 - Sep 2023",
     points: [
       "Developing and maintaining web applications using laravel and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -175,6 +176,19 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    "title": "Web Developer",
+    "company_name": "Kamgoko",
+    "icon": kamgoko,
+    "iconBg": "#383E56",
+    "date": "Sep 2024 - Jan 2025",
+    "points": [
+      "Developing custom WordPress plugins to meet specific client requirements.",
+      "Building reactive and dynamic user interfaces using Vue.js.",
+      "Translating Figma mockups into responsive HTML, CSS, and JavaScript designs.",
+      "Collaborating with design teams to ensure technical and visual consistency.",
+    ]
+  }
 ];
 
 const testimonials = [
