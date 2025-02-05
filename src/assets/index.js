@@ -25,7 +25,8 @@ import dart from "./tech/dart.jpg";
 import angularjs from "./tech/angularjs.png";
 import laravel from "./tech/laravel.png";
 
-import carrent from "./carrent.png";
+import carrent from "./rent.png";
+import myMTN from "./vueMtn.png";
 
 import php from "./tech/php.jpg";
 import mysql from "./tech/mysql.jpg";
@@ -44,6 +45,7 @@ import wordpress from "./tech/wordpress.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import resto from "./resto.jpg";
+import sgte from "./dash_admin.png"
 
 export {
   logo,
@@ -86,5 +88,7 @@ export {
   flutter,
   dart,
   angularjs,
-  resto
+  resto,
+  sgte,
+  myMTN
 };

@@ -27,6 +27,8 @@ import {
   resto,
   threejs,
   kamgoko,
+  sgte,
+  myMTN
 } from "../assets";
 
 export const navLinks = [
@@ -240,7 +242,7 @@ const projects = [
     image: carrent,
     source_code_link: "https://github.com/Aqui05/LOCAVO",
   },
-  {
+  /*{
     name: "SSP",
     description:
       "web application to manage transport, make reservations and monitor the shipment of goods...",
@@ -259,12 +261,34 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/SGTE",
+    source_code_link: "https://github.com/Aqui05/SSP",
+  },*/
+
+  {
+    name: "LogiTrack",
+    description:
+      "Web-based platform that allows users to book, manage, and track transportation and shipping services for goods, providing a streamlined and efficient solution for logistics and supply chain needs.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Angular JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mySQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sgte,
+    source_code_link: "https://github.com/Aqui05/SGTE",
   },
   {
     name: "Quinz",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based platform that enables restaurant owners to manage orders, track inventory, and oversee operations seamlessly, providing an all-in-one solution to streamline restaurant management.",
     tags: [
       {
         name: "nextjs",
@@ -281,6 +305,28 @@ const projects = [
     ],
     image: resto,
     source_code_link: "https://github.com/Aqui05/Quinz",
+  },
+
+  {
+    name: "MyMTN",
+    description:
+      "A user-friendly front-end interface for managing MTN accounts, enabling balance checks, airtime recharge, data purchases, and transaction tracking with a clean, responsive design.",
+    tags: [
+      /*{
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Angular JS",
+        color: "green-text-gradient",
+      },*/
+      {
+        name: "Vue JS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: myMTN,
+    source_code_link: "https://github.com/Aqui05/SGTE",
   },
 ];
 
