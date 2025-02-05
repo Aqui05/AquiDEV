@@ -28,7 +28,12 @@ import {
   threejs,
   kamgoko,
   sgte,
-  myMTN
+  myMTN,
+  laravel,
+  php,
+  angularjs,
+  vuejs,
+  mysql,
 } from "../assets";
 
 export const navLinks = [
@@ -52,7 +57,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Mobile Developer",
+    title: "Database Administrator",
     icon: mobile,
   },
   {
@@ -83,12 +88,12 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Vue JS",
+    icon: vuejs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Angular JS",
+    icon: angularjs,
   },
   {
     name: "Tailwind CSS",
@@ -103,29 +108,22 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  /*{
     name: "php",
     icon: php,
   },
   {
     name: "laravel",
     icon: laravel,
-  },*/
+  },
+
 ];
 
 const experiences = [

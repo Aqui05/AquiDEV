@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 import flutter from "./tech/flutter.jpg";
 import dart from "./tech/dart.jpg";
 import angularjs from "./tech/angularjs.png";
+import vuejs from "./tech/vuejs.jpg"
 import laravel from "./tech/laravel.png";
 
 import carrent from "./rent.png";
@@ -71,6 +72,7 @@ export {
   nodejs,
   reactjs,
   redux,
+  vuejs,
   tailwind,
   typescript,
   threejs,
