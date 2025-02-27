@@ -22,6 +22,7 @@ import {
   pac,
   philJohn,
   carrent,
+  wecard,
   jobit,
   tripguide,
   resto,
@@ -239,6 +240,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/Aqui05/LOCAVO",
+    //live_link: "https://locastv.com",
   },
   /*{
     name: "SSP",
@@ -282,6 +284,7 @@ const projects = [
     ],
     image: sgte,
     source_code_link: "https://github.com/Aqui05/SGTE",
+    //live_link: "https://logitrack.com",
   },
   {
     name: "Quinz",
@@ -303,6 +306,7 @@ const projects = [
     ],
     image: resto,
     source_code_link: "https://github.com/Aqui05/Quinz",
+    //live_link: "https://quinz.com
   },
 
   {
@@ -325,6 +329,31 @@ const projects = [
     ],
     image: myMTN,
     source_code_link: "https://github.com/Aqui05/SGTE",
+    live_link: "https://vue-mymtn.netlify.app/",
+  },
+
+  {
+    name: "User-Card",
+    description:
+      //creation of a user card(name...)
+      "A web-based platform for creating and managing user cards, offering a clean and efficient way to organize user information. Designed for simplicity, it provides a modern interface to streamline user data.",
+    tags: [
+      {
+        name: "vue.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wecard,
+    source_code_link: "https://github.com/Aqui05/wecard",
+    live_link: "https://aawecard.netlify.app/",
   },
 ];
 

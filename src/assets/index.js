@@ -28,6 +28,7 @@ import laravel from "./tech/laravel.png";
 
 import carrent from "./rent.png";
 import myMTN from "./vueMtn.png";
+import wecard from "./user.png";
 
 import php from "./tech/php.jpg";
 import mysql from "./tech/mysql.jpg";
@@ -63,6 +64,7 @@ export {
   docker,
   figma,
   php,
+  wecard,
   mysql,
   postgresql,
   git,
